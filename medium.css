@@ -1,4 +1,5 @@
- @media (min-width: 32.5em)
+ @media (min-width: 32.5em){
 img {
     float: right;
     }
+}
