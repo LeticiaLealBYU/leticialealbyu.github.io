@@ -4,6 +4,9 @@ body {
   margin: 0 auto;
 }
 
+header {
+  margin: 0 auto;
+}
 h2,h3{
   background-color: #0f184f;
   color: #dedede;
@@ -29,7 +32,7 @@ h1 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-h1 {
+h4 {
   font-size: 1.5em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
