@@ -29,7 +29,6 @@ h1 {
 }
 
 img {
-  margin: 1em;
   max-width: 100%;
 }
 
@@ -57,5 +56,31 @@ a:active {
   text-decoration: none;
 }
 
+@media (max-width: 35.5em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
 
+    }
+
+}
+
+
+@media (min-width: 35.5em) and (max-width: 65em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+
+}
+
+@media (min-width: 65em) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
 
