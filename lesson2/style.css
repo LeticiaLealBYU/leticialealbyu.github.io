@@ -1,9 +1,10 @@
 
 body {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-h2 h3{
+h2,h3{
   background-color: #0f184f;
   color: #dedede;
 }
@@ -38,9 +39,6 @@ main {
   color: #0f184f;
   margin: 2rem 2rem 2rem 2rem;
   font-family: "Lato", sans-serif;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
 }
 
 a:link,
@@ -58,4 +56,6 @@ a:active {
   color: #1096d4;
   text-decoration: none;
 }
+
+
 
