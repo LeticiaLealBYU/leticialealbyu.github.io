@@ -146,6 +146,10 @@ main a:active {
   padding: 1.5em;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 table, th, td {
   border: 1px solid black;
 }
