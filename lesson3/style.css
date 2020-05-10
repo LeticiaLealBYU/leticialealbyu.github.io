@@ -1,7 +1,6 @@
 body {
   font-size: 18px;
   font-family: "Lato", sans-serif;
-  line-height: 1.75;
   color: #0f184f;
   max-width: 1080px;
   margin: 0 auto;
@@ -37,7 +36,7 @@ h3 {
 }
 
 h2, h3, h4 {
-  margin: 0 3rem;
+  margin: 1rem 3rem;
 }
 
 p, img {
@@ -64,6 +63,7 @@ nav {
   font-weight: bold;
   font-size: 1.25rem;
   margin-bottom: 2rem;
+  line-height: 1.75;
   
   
 }
