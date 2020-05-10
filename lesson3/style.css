@@ -35,11 +35,11 @@ h3 {
 }
 
 h2, h3, h4 {
-  margin: 2rem 3rem -2rem 3rem;
+  margin: 2rem 3rem 0;
 }
 
 p, img {
-  margin: 0 2.5rem;
+  margin: -1rem 2.5rem 2rem;
 }
 
 h3 {
