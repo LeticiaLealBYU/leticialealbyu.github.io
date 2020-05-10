@@ -16,16 +16,17 @@ footer {
   text-align: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  margin: auto;
 }
 
 header {
   border-radius: 20px 20px 0 0;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-bottom: 2rem;
 }
 
 footer {
   border-radius: 0 0 20px 20px;
+  margin-top: 2rem;
 }
 
 
@@ -35,11 +36,11 @@ h3 {
 }
 
 h2, h3, h4 {
-  margin: 2rem 3rem 0;
+  margin: 0 3rem;
 }
 
 p, img {
-  margin: -1rem 2.5rem 2rem;
+  margin: 0 2.5rem;
 }
 
 h3 {
