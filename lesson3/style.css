@@ -54,6 +54,7 @@ h4 {
 img {
   margin: 1em;
   max-width: 100%;
+  float: left;
 }
 
 nav {
