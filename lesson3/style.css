@@ -80,11 +80,11 @@ nav li a {
 }
 
 nav a:hover, a:active {
-  background-color: #0f184f;
+  background-color: #004d81;
 }
 
 .active {
-  background-color: #0f184f;
+  background-color: #004d81;
 }
 
 main {
