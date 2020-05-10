@@ -146,6 +146,10 @@ main a:active {
   padding: 1.5em;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
+
 
 a:link,
 a:visited {
