@@ -28,19 +28,18 @@ footer {
   border-radius: 0 0 20px 20px;
 }
 
-h1,h2,h3,h4 {
-  margin: 0 auto;
-}
 
 h1,
 h3 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-h3,
-h4,
-p {
-  margin: 1rem;
+h2, h3, h4 {
+  margin: 2rem 3rem -2rem 3rem;
+}
+
+p, img {
+  margin: 0 2.5rem;
 }
 
 h3 {
