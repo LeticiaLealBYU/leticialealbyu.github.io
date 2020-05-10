@@ -124,26 +124,26 @@ main a:active {
 .primary-color{
   background-color: #002a46;
   text-align: center;
-  padding: 1.5em;
+  padding: .65em;
   color: white;
 }
 
 .secondary-color{
   background-color: #fab03c;
   text-align: center;
-  padding: 1.5em;
+  padding: .65em;
 }
 
 .accent1-color{
   background-color: #a4d5dd;
   text-align: center;
-  padding: 1.5em;
+  padding: .65em;
 }
 
 .accent2-color{
   background-color: #f6cb43;
   text-align: center;
-  padding: 1.5em;
+  padding: .65em;
 }
 
 table {
