@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   font-family: "Lato", sans-serif;
   line-height: 1.75;
-  color: white;
+  color: #0f184f;
   max-width: 1080px;
 }
 
@@ -100,82 +100,26 @@ main table {
   margin: 1rem;
   border-spacing: 1rem;
 }
+/* aqui o que falta */
 
-.color-sample, .typ-sample {
-  border: 1px solid black;
-  text-align: center;
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #eee;
 }
 
-.color-sample {
-  padding: 0.5rem 2rem;
-}
-
-.typ-sample {
-  padding: 0.5rem 1rem;
-}
-
-#header-color, #footer-color {
-  background-color: #4d7298;
+a:hover {
   color: #fff;
+  text-decoration: none;
 }
 
-#nav-color, #contact-color {
-  background-color: #77a6b6;
-  color: #000000;
+a:active {
+  color: #1096d4;
+  text-decoration: none;
 }
 
-#hover-color {
-  background-color: #9dc3c2;
-  color: #000000;
-}
-
-#body1-color {
-  background-color: #e7f4cd;
-  color: #000000;
-}
-
-#body2-color {
-  background-color: #d0efb1;
-  color: #000000;
-}
-
-#body3-color {
-  background-color: #b3d89c;
-  color: #000000;
-}
-
-#body4-color {
-  background-color: #95c687;
-  color: #000000;
-}
-
-#header-typ {
-  background-color: #4d7298;
-  font-size: 2em;
-  color: #fff;
-  font-family: 'Marcellus SC', serif;
-}
-
-#nav-typ {
-  background-color: #77a6b6;
-  font-size: 1.25em;
-  color: #000000;
-}
-
-#heading-typ {
-  background-color: #d0efb1;
-  color: #000000;
-  font-size: 1.5em;
-  font-family: 'Marcellus', serif;
-}
-
-#par-typ {
-  background-color: #95c687;
-  color: #000000;
-}
-
-#updated {
-  color: rgb(208, 206, 186);
+#pUpdated {
+  color: #1096d4;
 }
 
 footer a {
