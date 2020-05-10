@@ -158,6 +158,7 @@ table, th, td {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   background-color: #002a46;
   font-size: 40px;
+  color: white;
 }
 
 .snav{
@@ -168,22 +169,22 @@ table, th, td {
 
 .sh1{
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .sh2{
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .sh3 {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .sp{
   font-family: 'Lato', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 a:link,
