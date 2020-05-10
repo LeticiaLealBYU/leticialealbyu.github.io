@@ -154,6 +154,11 @@ table, th, td {
   border: 1px solid black;
 }
 
+.typo-table {
+  padding: 10px;
+}
+
+
 .sheader{
   font-family: 'Yanone Kaffeesatz', sans-serif;
   background-color: #002a46;
