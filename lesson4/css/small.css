@@ -67,7 +67,6 @@ h3 {
 
 nav {
   background-color: #fab03c;
-  color: black;
   text-align: center;
   margin: auto;
   font-weight: bold;
@@ -98,11 +97,11 @@ nav {
 }
 
 .navigation a:hover, .navigation a:active {
-  background-color: #a4d5dd;
+  background-color: #f6cb43;
 }
 
 .navigation .active {
-  background-color: #a4d5dd;
+  background-color: #f6cb43;
 }
 
 .responsive li {
