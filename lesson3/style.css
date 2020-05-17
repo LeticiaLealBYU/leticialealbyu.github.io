@@ -180,13 +180,13 @@ table, th, td {
 }
 
 .sh2{
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
 }
 
 .sh3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 25px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
 }
 
 .sp{
