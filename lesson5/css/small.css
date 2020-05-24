@@ -43,15 +43,6 @@ header img {
   flex-direction: column;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Marcellus', serif;
-}
-
 h1 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 40px;
