@@ -122,6 +122,7 @@ main {
 }
 
 .section1 {
+  background-color: #a4d5dd;
   position: relative;
   margin: 1rem;
 }
@@ -170,7 +171,7 @@ main {
 
 .section2 {
   display: none;
-  background-color: #d0efb1;
+  background-color: #a4d5dd;
   margin: 1rem;
   padding: 1rem;
 }
@@ -211,7 +212,7 @@ main {
 }
 
 .section3 {
-  background-color: #b3d89c;
+  background-color: #a4d5dd;
   margin: 1rem;
   padding: 1rem;
 }
@@ -238,7 +239,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #77a6b6;
+  background-color: #a4d5dd;
   padding: 1rem;
   margin-bottom: 0;
 }
