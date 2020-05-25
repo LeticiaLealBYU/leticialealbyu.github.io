@@ -66,6 +66,8 @@
 
   iframe {
     display: flex;
+    width: 550px;
+    height: 414px;
   }
 
   .contact-box {
