@@ -211,8 +211,9 @@ main {
   padding-bottom: 0.2rem;
 }
 
-.forecast-image {
-  width: 70%;
+.forecast-image img{
+  width: 60%;
+  padding: 1rem;
 }
 
 .section3 {
