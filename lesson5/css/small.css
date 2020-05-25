@@ -211,6 +211,10 @@ main {
   padding-bottom: 0.2rem;
 }
 
+.forecast-image {
+  width: 70%;
+}
+
 .section3 {
   background-color: #a4d5dd;
   margin: 1rem;
