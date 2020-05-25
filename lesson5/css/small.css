@@ -250,7 +250,7 @@ main {
   margin-bottom: 0;
 }
 
-.contact-map {
+iframe {
   display: none;
   margin: 1em;
   width: 45%;
