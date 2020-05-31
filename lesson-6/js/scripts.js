@@ -1,4 +1,3 @@
-// Toggle the hamburger menu class name upon click
 function toggleMenu() {
   document
     .getElementsByClassName("navigation")[0]
@@ -14,7 +13,7 @@ var month = currentDate.toLocaleDateString('en-US', monthOption);
 var day = currentDate.getDate();
 var year = currentDate.getFullYear();
 
-document.getElementById('currentdate').textContent = weekday + ", " + day + " " + month + " " + year;
+document.getElementById('currentDate').textContent = weekday + ", " + day + " " + month + " " + year;
 
 // Don't hide the banner on Fridays
 function showBanner() {
