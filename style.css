@@ -55,7 +55,7 @@ main ul {
 }
 
 main ul a:link,
-a:visited {
+main ul a:visited {
   text-decoration: none;
   color: #0077b5;
 }
