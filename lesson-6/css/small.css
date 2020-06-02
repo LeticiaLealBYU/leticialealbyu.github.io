@@ -103,12 +103,12 @@ nav {
   text-decoration: none;
 }
 
-.navigation a:hover, .navigation a:active {
-  background-color: #f6cb43;
+.navigation a:hover {
+  background-color: #a4d5dd;
 }
 
 .navigation .active {
-  background-color: #d8b21a;
+  background-color: #f6cb43;
 }
 
 .responsive li {
