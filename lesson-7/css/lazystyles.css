@@ -58,6 +58,36 @@ main {
   margin: auto;
 }
 
+picture {
+  display: grid;
+  align-content: space-between;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  background-color: white;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+picture img { 
+  display: grid;
+  width: 100%;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+picture img[data-src] {
+  filter: blur(0.2em);
+}
+
+picture figcaption {
+  display: grid;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  max-width: 270px;
+}
+
 a:link,
 a:visited {
   text-decoration: none;
