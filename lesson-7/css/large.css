@@ -24,5 +24,43 @@
     display: block;
     flex: 1 1 100%;
   }
+  
+  .img-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding: 2rem; 
+  margin: auto;
+}
+
+figure {
+  display: grid;
+  align-content: space-between;
+  justify-content: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+figure img { 
+  display: grid;
+  width: 100%;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+figure img[data-src] {
+  filter: blur(0.2em);
+}
+
+figure figcaption {
+  display: none;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  max-width: 270px;
+  font-size: 0.9rem;
+}
 
 }
