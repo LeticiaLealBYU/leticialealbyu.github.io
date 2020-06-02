@@ -54,7 +54,6 @@ picture {
   justify-content: center;
   margin: 1rem auto;
   padding: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.4);
   background-color: white;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
