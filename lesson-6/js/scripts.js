@@ -23,3 +23,12 @@ function showBanner() {
       .classList.toggle("hidebanner");
   }
 }
+
+WebFont.load({
+      google: {
+        families: [
+          'Lato',
+          'Yanone Kaffeesatz'
+        ]
+      }
+    });
