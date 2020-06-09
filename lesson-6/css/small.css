@@ -128,12 +128,10 @@ main {
 
 .hero-image {
   width: 100%;
-  overflow: hidden;
 }
 
 .hero-image img {
-  width: 120%;
-  margin-left: -3rem;
+  width: 100%;
 }
 
 .weather-summary {
