@@ -118,7 +118,7 @@ nav {
   display: block;
 }
 
-/*** Main *******************************************/
+/*Main*/
 main {
   padding-top: 1rem;
   max-width: 1080px;
@@ -317,7 +317,7 @@ figure figcaption {
   font-style: italic;
 }
 
-/*** Storm Center Page ******************************/
+/*Storm Center Page*/
 p.center {
   text-align: center;
   padding: 0 0.75rem;
@@ -331,7 +331,12 @@ div.vspace {
   color: #990000;
 }
 
-/*** Storm Center Page: Form Settings ***************/
+/*Form Settings*/
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
 form fieldset {
   margin: 2rem 2%;
   border: 2px solid black;
