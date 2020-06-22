@@ -335,6 +335,7 @@ div.vspace {
 
 form {
     width: 100%;
+    max-width:450px;
     margin: 0 auto;
 }
 form fieldset {
@@ -405,7 +406,7 @@ form label.top input:focus:required:invalid {
   border-color: #990000;
 }
 
-/*** Storm Center Page: Storm Severity Slider *******/
+/*Storm Severity Slider*/
 form label.severity span.severitylabels {
   max-width: 21.5rem;
   display: flex;
