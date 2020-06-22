@@ -23,7 +23,7 @@ header img {
   }
 
 
-  /*** Navigation *************************************/
+  /*Navigation*/
   nav {
     font-size: 1.3em;
   }
@@ -96,6 +96,10 @@ header img {
   form label.top select {
     width: 100%;
   }
+  
+  form {
+    max-width: 37%;
+}
 
 
   /*Footer*/
