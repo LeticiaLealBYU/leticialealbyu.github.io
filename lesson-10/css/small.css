@@ -1,16 +1,16 @@
 body {
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.75;
 }
 
-/***** Message banner *****************/
+/*Message banner*/
 .showbanner {
   display: block;
   text-align: center;
   font-size: 1.25em;
   line-height: 1.25em;
-  background-color: #e7f4cd;
+  background-color: #002a46;
   padding: 0.9rem;
 }
 
@@ -18,10 +18,10 @@ body {
   display: none;
 }
 
-/*** Header *****************************************/
+/*Header*/
 header,
 footer {
-  background-color: #4d7298;
+  background-color: #002a46;
   color: #fff;
   text-align: center;
   margin: auto;
@@ -45,18 +45,9 @@ header img {
   flex-direction: column;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Marcellus', serif;
-}
-
 h1 {
-  font-family: 'Marcellus SC', serif;
-  font-size: 1.7em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 40px;
   margin-bottom: 0.4em;
   line-height: 1.15em;
 }
@@ -70,15 +61,22 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
-  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
   margin: 0 auto;
+  text-align: center;
 }
 
-/*** Navigation *************************************/
+h3 {
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+}
+
+/*Navigation*/
 nav {
-  background-color: #77a6b6;
-  color: black;
+  background-color: #fab03c;
   text-align: center;
   margin: auto;
   font-weight: bold;
@@ -96,54 +94,54 @@ nav {
   display: block;
 }
 
-.navigation li {
+.navigation li{
   display: none;
 }
 
 .navigation a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 0.75rem;
   text-decoration: none;
 }
 
 .navigation a:hover {
-  background-color: #9dc3c2;
+  background-color: #f6da43;
 }
 
 .navigation .active {
-  color: #fff;
-  text-shadow: 0 0 2px rgb(31, 45, 58), 0 0 10px rgb(31, 45, 58);
+  background-color: #f6cb43;
 }
 
 .responsive li {
   display: block;
 }
 
-/*** Main *******************************************/
+/*Main*/
 main {
   padding-top: 1rem;
   max-width: 1080px;
   margin: auto;
 }
 
-/*** Home Page: Banner Image ************************/
+
+/*Banner Home*/
 div.banner-image img {
   width: 100%;
   margin-top: -1rem;
 }
 
-/*** Home Page: Feature *****************************/
+/*Home Feature*/
 div.feature {
-  background-color: #e7f4cd;
+  background-color: #a4d5dd;
   margin: 1rem;
   padding: 1rem;
 }
 
-/*** Home Page: Local Towns *************************/
+/*Home Local Towns*/
 div.towns {
-  background-color: #d0efb1;
+  background-color: #a4d5dd;
   margin: 1rem;
   padding: 0.75rem;
 }
@@ -163,7 +161,7 @@ div.town-data section {
   width: 97%;
   margin: 0.5rem 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255,255,255, 0.3);
 }
 
 div.town-data section div.town-info {
@@ -199,7 +197,7 @@ div.town-data section div.town-image img {
   width: 100%;
 }
 
-/*** Location Pages: Hero Image / Weather Summary ***/
+/*Hero Image / Weather Summary*/
 .section1 {
   position: relative;
   margin: 1rem;
@@ -219,7 +217,7 @@ div.town-data section div.town-image img {
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
-  background-color: rgba(231, 244, 205, 0.8);
+  background-color: rgba(164,213,221, 0.8);
   padding: 1rem;
 }
 
@@ -230,7 +228,7 @@ div.town-data section div.town-image img {
 
 .ws-content {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 65% 35%;
   grid-gap: 0 0.5rem;
   margin: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -247,10 +245,10 @@ div.town-data section div.town-image img {
   justify-items: end;
 }
 
-/*** Location Pages: Forecast ************************/
+/*Forecast*/
 .section2 {
   display: none;
-  background-color: #d0efb1;
+  background-color: #a4d5dd;
   margin: 1rem;
   padding: 1rem;
 }
@@ -279,25 +277,25 @@ div.town-data section div.town-image img {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.forecast-image img {
-  width: 80%;
-  padding: 0.75rem;
-}
-
 .forecast-label {
   font-weight: bold;
   padding: 0.2rem;
   color: white;
-  background-color: #5b7a53;
+  background-color: #002a46;
 }
 
 .forecast-temp {
   padding-bottom: 0.2rem;
 }
 
-/*** Location Pages: Article ************************/
+.forecast-image img{
+  width: 60%;
+  padding: 1rem;
+}
+
+/*Article*/
 .section3 {
-  background-color: #b3d89c;
+  background-color: #a4d5dd;
   margin: 1rem;
   padding: 1rem;
 }
@@ -320,12 +318,46 @@ div.town-data section div.town-image img {
   color: rgba(0, 0, 0, 0.6);
 }
 
-/*** Gallery Page ***********************************/
-.pic-grid {
+/*Contact Info*/
+.section4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #a4d5dd;
+  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+iframe {
+  display: none;
+  margin: 1em;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+address {
+  font-style: normal;
+}
+
+address a {
+  color: black;
+  font-size: 0.8em;
+}
+
+/*Gallery Page*/
+.img-grid {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  padding: 2rem;
   margin: auto;
 }
 
@@ -333,13 +365,11 @@ figure {
   display: grid;
   align-content: space-between;
   justify-content: center;
-  margin: 0.5rem;
   padding: 0.5rem;
-  border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-figure img {
+figure img { 
   display: grid;
   width: 100%;
   filter: blur(0em);
@@ -353,13 +383,13 @@ figure img[data-src] {
 figure figcaption {
   display: none;
   padding: 1rem;
-  text-align: center;
   align-items: center;
   max-width: 270px;
   font-size: 0.9rem;
+  font-style: italic;
 }
 
-/*** Storm Center Page ******************************/
+/*Storm Center Page*/
 p.center {
   text-align: center;
   padding: 0 0.75rem;
@@ -373,7 +403,13 @@ div.vspace {
   color: #990000;
 }
 
-/*** Storm Center Page: Form Settings ***************/
+/*Form Settings*/
+
+form {
+    width: 100%;
+    max-width:450px;
+    margin: 0 auto;
+}
 form fieldset {
   margin: 2rem 2%;
   border: 2px solid black;
@@ -382,19 +418,19 @@ form fieldset {
 }
 
 form fieldset.color1 {
-  background-color: #e7f4cd;
+  background-color: #f6cb43;
 }
 
 form fieldset.color2 {
-  background-color: #d0efb1;
+  background-color: #a4d5dd;
 }
 
 form fieldset.color3 {
-  background-color: #b3d89c;
+  background-color: #fab03c;
 }
 
 form legend {
-  font-family: 'Marcellus', serif;
+  font-family: 'Lato', serif;
   font-size: 1.25rem;
   margin: 0 1rem;
   padding: 0 0.5rem;
@@ -412,37 +448,37 @@ form div {
 form label.top input,
 form label.top select,
 form label.top textarea {
-  -webkit-appearance: none;
+  -webkit-appearance: none; 
   display: block;
   font-size: 1rem;
-  border: solid 1px #999;
+  border: solid 1px #002a46;
   border-radius: 4px;
   padding: 0.75rem;
-  color: #555;
+  color: #002a46;
   width: 89%;
   max-width: 20rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
-form label input:focus,
+form label input:focus, 
 form label select:focus,
 form label textarea:focus {
-  border: 1px solid black;
+  border:1px solid black;
   outline: none !important;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
 }
 
 form label.sbs {
   display: block;
   padding: 0.75rem;
-  color: #555;
+  color: #002a46;
 }
 
 form label.top input:focus:required:invalid {
   border-color: #990000;
 }
 
-/*** Storm Center Page: Storm Severity Slider *******/
+/*Storm Severity Slider*/
 form label.severity span.severitylabels {
   max-width: 21.5rem;
   display: flex;
@@ -464,22 +500,22 @@ form label.severity span.severitylabels span.labelbox span {
   font-size: 0.8rem;
 }
 
-form label.severity input {
+form label.severity input{
   -webkit-appearance: none;
   display: block;
   max-width: 21.5rem;
-  background-color: #d0efb1;
+  background-color: #a4d5dd; 
 }
 
 input[type=range] {
-  margin: 20px 0 10px 0;
+  margin: 20px 0 10px 0; 
   width: 100%;
 }
 
 /* Slider styling in Chrome */
 input[type=range]::-webkit-slider-runnable-track {
   height: 3px;
-  background: rgb(134, 134, 134);
+  background: rgb(134, 134, 134); 
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -496,7 +532,7 @@ input[type=range]::-webkit-slider-thumb {
 /* Slider styling in Firefox */
 input[type=range]::-moz-range-track {
   height: 3px;
-  background: rgb(134, 134, 134);
+  background: rgb(134, 134, 134); 
 }
 
 input[type=range]::-moz-range-thumb {
@@ -508,9 +544,9 @@ input[type=range]::-moz-range-thumb {
   margin-top: -12px;
 }
 
-/*** Storm Center Page: Submit Button & Misc Items **/
+/*Storm Center Page: Submit Button*/
 form label.top select.region {
-  width: 98%;
+  width: 98%; 
   max-width: 21.5rem;
 }
 
@@ -520,7 +556,7 @@ form div.divlabel {
 
 form input.submitBtn {
   border: none;
-  background-color: #95c687;
+  background-color: #a4d5dd;
   border-radius: 10px;
   padding: 0.5rem;
   margin: 0 0 2rem 0;
@@ -532,53 +568,14 @@ form input.submitBtn {
 }
 
 input[type="submit"]:hover {
-  background-color: rgba(149, 198, 135, 0.4);
+  background-color: rgba(149,198,135,0.4);
 }
 
 form div.button-div {
   margin: 2rem 2%;
 }
 
-/*** Contact Info ***********************************/
-.section4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #77a6b6;
-  padding: 1rem;
-  margin-bottom: 0;
-}
-
-.contact-img {
-  display: none;
-  margin: 1em 1em 1em 2em;
-  width: 40%;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-img img {
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.6);
-}
-
-.contact-box {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
-
-address {
-  font-style: normal;
-}
-
-address a {
-  color: black;
-  font-size: 0.8em;
-}
-
-/*** Footer *****************************************/
+/*Footer*/
 footer {
   font-size: 0.8em;
   padding-top: 0.5rem;
