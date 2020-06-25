@@ -259,15 +259,16 @@ div.town-data section div.town-image img {
   margin: -0.5rem 0 0.5rem 0;
 }
 
-.forecast {
+div.forecast {
   width: 500px;
   margin: 0 auto;
   display: grid;
+  justify-items: center;
   grid-template-columns: 20% 20% 20% 20% 20%;
   background-color: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  border-right: 1px solid rgba(0, 0, 0, 0.3);
-  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.4); 
 }
 
 div.forecast div.forecast-image {
@@ -275,7 +276,6 @@ div.forecast div.forecast-image {
   display: grid;
   justify-items: center;
   border-right: 1px solid rgba(0, 0, 0, 0.3);
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 div.forecast div.forecast-label {
@@ -285,6 +285,7 @@ div.forecast div.forecast-label {
   font-weight: bold;
   color: white;
   background-color: #002a46;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 
