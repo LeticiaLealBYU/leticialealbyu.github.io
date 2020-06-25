@@ -389,7 +389,7 @@ figure figcaption {
   font-style: italic;
 }
 
-/*** Storm Center Page ******************************/
+/*Storm Center Page*/
 p.center {
   text-align: center;
   padding: 0 0.75rem;
@@ -403,7 +403,13 @@ div.vspace {
   color: #990000;
 }
 
-/*** Storm Center Page: Form Settings ***************/
+/*Form Settings*/
+
+form {
+    width: 100%;
+    max-width:450px;
+    margin: 0 auto;
+}
 form fieldset {
   margin: 2rem 2%;
   border: 2px solid black;
@@ -451,7 +457,7 @@ form label.top textarea {
   color: #002a46;
   width: 89%;
   max-width: 20rem;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 form label input:focus, 
@@ -472,7 +478,7 @@ form label.top input:focus:required:invalid {
   border-color: #990000;
 }
 
-/*** Storm Center Page: Storm Severity Slider *******/
+/*Storm Severity Slider*/
 form label.severity span.severitylabels {
   max-width: 21.5rem;
   display: flex;
@@ -538,7 +544,7 @@ input[type=range]::-moz-range-thumb {
   margin-top: -12px;
 }
 
-/*** Storm Center Page: Submit Button & Misc Items **/
+/*Storm Center Page: Submit Button*/
 form label.top select.region {
   width: 98%; 
   max-width: 21.5rem;
