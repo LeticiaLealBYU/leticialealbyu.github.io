@@ -116,8 +116,9 @@
   }
 
   /*Article*/
-  .section3 {
+  div.section3 {
     padding: 3rem;
+    margin: 2rem 0;
   }
 
   .article-img {
