@@ -1,5 +1,5 @@
 // Pull current weather data from OpenWeather API
-const currentAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=c6debd9d9914f38a4a730ac064c0c641&units=imperial';
+const currentAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=9b717b87c356c42c153e56b94339d80a&units=imperial';
 
 fetch(currentAPI)
   .then((response) => response.json())
@@ -39,7 +39,7 @@ fetch(currentAPI)
 
 
 // Pull forecast weather data from OpenWeather API
-const forecastAPI = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=c6debd9d9914f38a4a730ac064c0c641&units=imperial';
+const forecastAPI = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=9b717b87c356c42c153e56b94339d80a&units=imperial';
 
 fetch(forecastAPI)
   .then((response) => response.json())
