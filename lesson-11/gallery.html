@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston | My Clima</title>
+    <meta name="description" content="Preston, Idaho weather">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="My Clima logo">
+        <section class="headings">
+            <h1>My Clima</h1>
+            <div>The best source for local weather</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html" class="active"">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+       <h2>Weather Gallery</h2>
+      <div class="img-grid">
+      <figure>
+        <img src="images/placeholder.jpg" data-src="images/g1.jpg" alt="mist on the forest">
+        <figcaption>Mist on the forest</figcaption>
+      </figure>
+      <figure>
+        <img src="images/placeholder.jpg" data-src="images/g2.jpg" alt="kid playing in the rain">
+        <figcaption>Kid playing in the rain</figcaption>
+      </figure>
+      <figure>
+        <img src="images/placeholder.jpg" data-src="images/g3.jpg" alt="girl on snow">
+        <figcaption>Girl on snow</figcaption>
+      </figure>
+      <figure>
+        <img src="images/placeholder.jpg" data-src="images/g4.jpg"
+          alt="Sunny morning">
+        <figcaption>Sunny morning</figcaption>
+      </figure>
+      <figure>
+        <img src="images/placeholder.jpg" data-src="images/g5.jpg" alt="Beautiful day">
+        <figcaption>Beautiful day</figcaption>
+      </figure>
+      <figure>
+        <img src="images/placeholder.jpg" data-src="images/g6.jpg" alt="Sun lovers">
+        <figcaption>Sun lovers</figcaption>
+      </figure>
+    </div>
+    </main>
+    <footer>
+        &copy; My Clima | <a href="../index.html">Letícia Leal Santos</a>
+        <div><span id="currentDate"></span></div>
+    </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>              
+  <script src="js/scripts.js"></script>
+  <script src="js/galleryimages.js"></script>
+</body>
+
+</html>
+
