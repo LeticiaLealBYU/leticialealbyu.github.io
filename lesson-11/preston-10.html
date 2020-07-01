@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston | My Clima</title>
+    <meta name="description" content="Preston, Idaho weather">
+    <link rel="icon" type="image/png" href="/lesson3/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body onload="showBanner(); calculateWindChill()">
+  <aside class="showbanner hidebanner">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+  </aside>
+    <header>
+        <img src="https://leticialealbyu.github.io/lesson3/logo.png" alt="My Clima logo">
+        <section class="headings">
+            <h1>My Clima</h1>
+            <div>The best source for local weather</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson-9/index.html">Home</a></li>
+            <li><a href="preston-10.html"class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson-7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+      <h2>Preston Idaho</h2>
+      <div class="section1">
+        <div class="hero-image">
+        <img src="images/hero1080b.jpg" alt="grass, trees, and blue sky with sun shining" srcset="images/hero527.jpg 527w, images/hero895.jpg 895w, images/hero1080.jpg 1080w" sizes="100vw">
+      </div>
+      <section class="weather-summary">
+        <h3>Weather Summary</h3>
+        <div class="ws-content">
+          <div class="col1">Currently:</div>
+          <div id="currentcondition"></div>
+          <div class="col1">Temperature:</div>
+          <div><span id="currenttemp"></span>&deg;F</div>
+          <div class="col1">Wind Chill:</div>
+          <div id=windchilllabel><span id="windchill"></span>&deg;F</div>
+          <div class="col1">Humidity:</div>
+          <div><span id="humidity"></span>%</div>
+          <div class="col1">Wind Speed:</div>
+          <div><span id="windspeed">12</span>mph</div>
+        </div>
+      </section>
+      </div>
+      <div class="section2">
+        <h3>5 Day Forecast</h3>
+        <div class="forecast">
+        <div class="forecast-label" id="label0"></div>
+        <div class="forecast-label" id="label1"></div>
+        <div class="forecast-label" id="label2"></div>
+        <div class="forecast-label" id="label3"></div>
+        <div class="forecast-label" id="label4"></div>
+        <div class="forecast-image"><img id="image0" src="#" alt="weather condition icon"></div>
+        <div class="forecast-image"><img id="image1" src="#" alt="weather condition icon"></div>
+        <div class="forecast-image"><img id="image2" src="#" alt="weather condition icon"></div>
+        <div class="forecast-image"><img id="image3" src="#" alt="weather condition icon"></div>
+        <div class="forecast-image"><img id="image4" src="#" alt="weather condition icon"></div>
+        <div class="forecast-temp"><span id="temp0"></span>&deg;F</div>
+        <div class="forecast-temp"><span id="temp1"></span>&deg;F</div>
+        <div class="forecast-temp"><span id="temp2"></span>&deg;F</div>
+        <div class="forecast-temp"><span id="temp3"></span>&deg;F</div>
+        <div class="forecast-temp"><span id="temp4"></span>&deg;F</div>
+      </div>
+      </div>
+      <div class="section3">
+        <img class="article-img" src="https://leticialealbyu.github.io/lesson5/images/park.jpg" alt="park">
+        <h3 class="article-title">Founders Day Fresco</h3>
+        <h4 class="author">by Janica Juarez</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et doloremagna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="section4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.4877645228703!2d-111.87577298455204!3d42.097023379205496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7e967e1ebc7%3A0x14469667cfe31546!2s30%20N%201st%20E%2C%20Preston%2C%20ID%2083263%2C%20USA!5e0!3m2!1sen!2sbr!4v1590432289305!5m2!1sen!2sbr"></iframe>
+        <div class="contact-box">
+          <div class="contact">
+            <address>
+              <strong>My Clima</strong><br>30 N 1st E<br>Preston, ID 83263<br><br>&#9742;
+              999.99.9999<br>&#9993; <a href="mailto:info@myclima.com">info@myclima.com</a>
+            </address>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        &copy; My Clima | <a href="../index.html">Letícia Leal Santos</a>
+        <div><span id="currentDate"></span></div>
+    </footer>
+    
+     <script src="js/scripts.js"></script>
+  <script src="js/prestonbanner.js"></script>
+  <script src="js/prestonweather.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/fonts.js"></script>
+</body>
+</html>
+
