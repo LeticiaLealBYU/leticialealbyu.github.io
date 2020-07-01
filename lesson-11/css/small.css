@@ -304,7 +304,6 @@ div.forecast div.forecast-image img {
 /*Events*/
 
 .events-section {
-  display: none;
   background-color: #a4d5dd;
   margin: 1rem;
   padding: 2rem 1rem;
