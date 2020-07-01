@@ -313,7 +313,7 @@ div.forecast div.forecast-image img {
   border-bottom: 2px solid rgb(196, 225, 232);
 }
   
-events ul {
+.events ul {
     list-style: none;
     width: 270px;
     margin: 0 auto;
