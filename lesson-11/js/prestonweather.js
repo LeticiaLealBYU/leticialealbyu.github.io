@@ -1,4 +1,4 @@
-// Pull current weather data from OpenWeather API
+// current weather data from OpenWeather API
 const currentAPI = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=9b717b87c356c42c153e56b94339d80a&units=imperial';
 
 fetch(currentAPI)
@@ -38,7 +38,7 @@ fetch(currentAPI)
   });
 
 
-// Pull forecast weather data from OpenWeather API
+// forecast weather data from OpenWeather API
 const forecastAPI = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=9b717b87c356c42c153e56b94339d80a&units=imperial';
 
 fetch(forecastAPI)
@@ -79,4 +79,32 @@ fetch(forecastAPI)
       i++;
     }
 
+  });
+
+// town events data from JSON file
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    const towns = jsonObject['towns'];
+
+    for (let i = 0; i < towns.length; i++ ) {
+      if (towns[i].name == "Preston") {
+        
+        // Create an unordered list
+        let list = document.createElement('ul'); 
+
+        // Create a list item for each event
+        for (let j = 0; j < towns[i].events.length; j++) {
+          let item = document.createElement('li');
+          item.textContent = towns[i].events[j];
+          list.appendChild(item);
+        } 
+
+        document.querySelector('div.events').appendChild(list); 
+      } 
+    } 
   });
