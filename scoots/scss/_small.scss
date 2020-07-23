@@ -1,0 +1,470 @@
+body {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.75;
+}
+
+/*top*/
+.top-header{
+    display: grid;
+    grid-template-columns: 1fr;   
+}
+
+
+/*Header*/
+.top-header,
+header,
+footer {
+  background-color: #E41F2d;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+header {
+  display: flex;
+
+}
+
+.headings {
+  padding-right: 0.75rem;
+}
+
+h1 {
+  font-family: 'Podkova', sans-serif;
+  font-size: 40px;
+  margin-bottom: 0.4em;
+  line-height: 1.15em;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0;
+  font-family: 'Podkova', sans-serif;
+  text-align: center;
+}
+
+/*Navigation*/
+nav {
+  background-color: #E41F2d;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.25em;
+  width: 100%;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+
+.navigation li{
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #5f99d7;
+}
+
+.navigation .active {
+  background-color: #fd4755;
+}
+
+.responsive li {
+  display: block;
+}
+
+/*Main*/
+main {
+  padding-top: 1rem;
+  max-width: 1080px;
+  margin: auto;
+}
+
+
+/*Banner Image / info on top*/
+.section1 {
+  position: relative;
+  margin: 1rem;
+}
+
+.hero-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 120%;
+  margin-left: -3rem;
+}
+
+.overInfo {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: rgba(253,71,85, 0.8);
+  padding: 1rem;
+}
+
+.overInfo h3 {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.call-to-action {
+    display: block;
+    background-color:#5f99d7;
+    width: max-content;
+    padding: 1em;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.call-to-action:hover {
+    background-color:#5f99a5;
+}
+
+.call-to-action a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/*welcome*/
+.welcome {
+  background-color: #a4d5dd;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.welcome-img {
+  display: block;
+  margin: 1rem auto;
+  width: 90%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.welcome-title {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/*Forecast*/
+.section2 {
+  display: none;
+  background-color: #a4d5dd;
+  margin: 1rem;
+  padding: 2rem 1rem;
+}
+
+.section2 h3 {
+  font-size: 1.25em;
+  text-align: center;
+  margin: -0.5rem 0 0.5rem 0;
+}
+
+div.forecast {
+  width: 500px;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.4); 
+}
+
+div.forecast div.forecast-image {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+div.forecast div.forecast-label {
+  text-align: center;
+  width: 99%;
+  line-height: 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #002a46;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+div.forecast div.forecast-temp {
+  display: inline;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.2rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+div.forecast div.forecast-image img {
+  padding: 0.75rem;
+}
+
+/*Contact*/
+p.center {
+  text-align: center;
+  padding: 0 0.75rem;
+}
+
+div.vspace {
+  height: 36px;
+}
+
+.red {
+  color: #990000;
+}
+
+.section4 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  background-color: #5f99d7;
+  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+iframe {
+  margin: 0.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+address {
+  font-style: normal;
+}
+
+address a {
+  color: black;
+  font-size: 0.8em;
+}
+
+/*Form Settings*/
+
+form {
+    width: 100%;
+    max-width:450px;
+    margin: 0 auto;
+}
+form fieldset {
+  margin: 2rem 2%;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0 4% 2rem 4%;
+}
+
+form fieldset.color1 {
+  background-color: #fd4755;
+}
+
+
+form legend {
+  font-family: 'Lato', serif;
+  font-size: 1.25rem;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  text-shadow: white 1px 1px, white -1px 1px, white 2px 2px 2px, white -2px 2px 2px,
+    white 3px 3px 4px, white -3px 3px 4px, white 4px 4px 6px, white -4px 4px 6px,
+    white 5px 5px 8px, white -5px 5px 8px, white 6px 6px 10px, white -6px 6px 10px;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+  -webkit-appearance: none; 
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #002a46;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #002a46;
+  width: 89%;
+  max-width: 20rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+form label input:focus, 
+form label select:focus,
+form label textarea:focus {
+  border:1px solid black;
+  outline: none !important;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem;
+  color: #002a46;
+}
+
+form label.top input:focus:required:invalid {
+  border-color: #990000;
+}
+
+/*Storm Severity Slider*/
+form label.severity span.severitylabels {
+  max-width: 21.5rem;
+  display: flex;
+  justify-content: space-between;
+  color: #474747;
+  padding: 0;
+  margin-bottom: -10px;
+}
+
+form label.severity span.severitylabels span.labelbox {
+  display: flex;
+  width: 20px;
+  justify-content: center;
+  padding: 0;
+}
+
+form label.severity span.severitylabels span.labelbox span {
+  padding-top: 0;
+  font-size: 0.8rem;
+}
+
+form label.severity input{
+  -webkit-appearance: none;
+  display: block;
+  max-width: 21.5rem;
+  background-color: #a4d5dd; 
+}
+
+input[type=range] {
+  margin: 20px 0 10px 0; 
+  width: 100%;
+}
+
+/* Slider styling in Chrome */
+input[type=range]::-webkit-slider-runnable-track {
+  height: 3px;
+  background: rgb(134, 134, 134); 
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #555;
+  height: 28px;
+  width: 20px;
+  border-radius: 4px;
+  background: rgb(228, 228, 228);
+  margin-top: -12px;
+}
+
+
+/* Slider styling in Firefox */
+input[type=range]::-moz-range-track {
+  height: 3px;
+  background: rgb(134, 134, 134); 
+}
+
+input[type=range]::-moz-range-thumb {
+  border: 1px solid #555;
+  height: 28px;
+  width: 20px;
+  border-radius: 4px;
+  background: rgb(228, 228, 228);
+  margin-top: -12px;
+}
+
+/*Storm Center Page: Submit Button*/
+form label.top select.region {
+  width: 98%; 
+  max-width: 21.5rem;
+}
+
+form div.divlabel {
+  padding-top: 1rem;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #5f99d7;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0 0 2rem 0;
+  width: 100%;
+  max-width: 15rem;
+  height: 3.5rem;
+  border: 2px solid black;
+  font-size: 1.25rem;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(149,198,135,0.4);
+}
+
+form div.button-div {
+  margin: 2rem 2%;
+}
+
+div.Rentals {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1px;
+    text-align: center;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.Rentals section {
+    padding: 10px;
+    background-color: #58555515;
+    margin-top: 1em;
+}
+
+
+
+/*Footer*/
+footer {
+  font-size: 0.8em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+footer a {
+  color: white;
+}
+
+
