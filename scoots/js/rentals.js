@@ -1,4 +1,4 @@
-const requestURL = '/rentals.json';
+const requestURL = 'leticialealbyu.github.io/scoots/js/rentals.json';
 fetch(requestURL)
     .then(function (response) {
         return response.json();
