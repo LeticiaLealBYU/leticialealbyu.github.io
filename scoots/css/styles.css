@@ -387,7 +387,7 @@ footer {
 footer a {
   color: white; }
 
-@media only screen and (min-width: 590px) {
+@media only screen and (min-width: 35em) {
   body {
     font-size: 16px; }
 
@@ -498,7 +498,7 @@ footer a {
   footer {
     font-size: 1em;
     max-width: 1080px; } }
-@media only screen and (min-width: 1190px) {
+@media only screen and (min-width: 58em) {
   .top-header {
     display: grid;
     grid-template-columns: 2fr 10fr; }
