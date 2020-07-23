@@ -1,0 +1,58 @@
+{
+   "rentals":[
+      {
+         "type":"Honda Metro Scooter",
+         "maxPeople":1,
+         "reservationsHD":"$20",
+         "reservationsFD":"$30",
+         "walkingHD":"$25",
+         "walkingFD":"$35",
+         "image":"honda1.png"
+      },
+      {
+         "type":"Honda Dio Scooter",
+         "maxPeople":2,
+         "reservationsHD":"$30",
+         "reservationsFD":"$40",
+         "walkingHD":"$35",
+         "walkingFD":"$45",
+         "image":"honda2.png"
+      },
+      {
+         "type":"Honda PCX150 Scooter",
+         "maxPeople":2,
+         "reservationsHD":"$40",
+         "reservationsFD":"$50",
+         "walkingHD":"$45",
+         "walkingFD":"$55",
+         "image":"honda3.png"
+      },
+      {
+         "type":"Honda Pioneer ATV",
+         "maxPeople":4,
+         "reservationsHD":"$50",
+         "reservationsFD":"$70",
+         "walkingHD":"$60",
+         "walkingFD":"$80",
+         "image":"honda4.png"
+      },
+      {
+         "type":"Jeep Wrangler - 4 door with a/c",
+         "maxPeople":5,
+         "reservationsHD":"$70",
+         "reservationsFD":"$100",
+         "walkingHD":"$85",
+         "walkingFD":"$125",
+         "image":"jeep1.png"
+      },
+      {
+         "type":"Jeep Wrangler - 2 door",
+         "maxPeople":4,
+         "reservationsHD":"$60",
+         "reservationsFD":"$85",
+         "walkingHD":"$70",
+         "walkingFD":"$90",
+         "image":"jeep2.png"
+      }
+   ]
+}
